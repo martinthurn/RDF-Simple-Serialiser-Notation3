@@ -1,8 +1,7 @@
 !Build/
 .last_cover_stats
-/META.yml
-/META.json
-/MYMETA.*
+/MANIFEST
+/*META*
 *.o
 *.pm.tdy
 *.bs
