@@ -1,34 +1,29 @@
 !Build/
-.last_cover_stats
-/MANIFEST
-/*META*
+# Devel::Cover
+# Devel::NYTProf
+# Dizt::Zilla
+# ExtUtils::MakeMaker
+# Module::Build
+# Module::Install
+*.bs
 *.o
 *.pm.tdy
-*.bs
-
-# Devel::Cover
-cover_db/
-
-# Devel::NYTProf
-nytprof.out
-
-# Dizt::Zilla
-/.build/
-
-# Module::Build
-_build/
-Build
-Build.bat
-
-# Module::Install
-inc/
-
-# ExtUtils::MakeMaker
-/blib/
-/_eumm/
+.last_cover_stats
 /*.gz
+/*.zip
+/*META*
+/.build/
+/MANIFEST
+/MANIFEST.bak
 /Makefile
 /Makefile.old
-/MANIFEST.bak
+/RDF-Simple-Serialiser*
+/_eumm/
+/blib/
 /pm_to_blib
-/*.zip
+Build
+Build.bat
+_build/
+cover_db/
+inc/
+nytprof.out
